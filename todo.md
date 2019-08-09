@@ -1,30 +1,30 @@
-##TODO
+## TODO
 
-###Actors
+### Actors
 - admin: user with admin access to system
 - service company: service company employee
 - guard: guarding company employee
 - neighbor: authorized inhabitant
 
-###Auth
+### Auth
 - POST /login - auth in app
 - GET /logout - logout from app
 
-###Requests
+### Requests
 - POST /request - save request from neighbor
 - GET /requests - get requests list (should support filtering and pagination)
 - GET /request/{id} - get request data
 - PUT /request/{id} - edit request
 - DELETE /request/id - delete request
 
-###Users
+### Users
 - POST /user - create user
 - GET /user/{id} - get user data
 - GET /users - get users list (should support filtering and pagination)
 - PUT /user/{id} - update user data
 - DELETE /user/{id} - delete user
 
-###Tasks
+### Tasks
 1. app should be able to authorize user  
     - at initial stage we'll have hardcoded guard, admin, and service company accounts
     - admin should be able to add neighbors
